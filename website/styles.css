@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+.box {
+  display: grid;
+  width: 900px;
+  margin: 50px auto;
+  padding-left: 7.5%;
+  grid-template-columns: 40% 50%;
+  grid-template-rows: 100%;
+}
+
+.box-l, .footer {
+  font-family: "Fira Sans";
+}
+
+.box-l {
+  display: grid;
+  margin-left: -20%;
+  padding: 25px;
+  grid-template-columns: 100%;
+  grid-template-rows: 70% 30%;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 5px 5px 25px 0 gray;
+  height: 400px;
+}
+
+.box-l-top {
+  margin-bottom: 5%;
+}
+
+.box-l-bot {
+  position: relative;
+}
+
+.cta {
+  position: absolute;
+  top: 60%;
+  font-weight: 300;
+  color: black;
+  font-size: 12px;
+  text-transform: lowercase;
+  text-align: center;
+  width: 100%;
+}
+
+.cta-button {
+  border: 1px solid black;
+  padding: 5px 7px;
+  cursor: pointer;
+  display: inline;
+}
+
+.cta-button:hover {
+  background-color: white;
+}
+
+.cta-txt {
+  display: inline;
+}
+
+.cta-txt:nth-child(2) {
+  font-weight: bold;
+  margin: 0px 14px 0px 10px;
+}
+
+.box-r {
+  height: 100%;
+  margin-left: -30%;
+  margin-top: 10%;
+  z-index: -1;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.proj-name, .header, table {
+  font-family: "Fira Sans Extra Condensed";
+  text-transform: uppercase;
+}
+
+.proj-name {
+  text-align: right;
+  padding: 15px;
+  background-color: darkgray;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  border-bottom: 2px solid black;
+  font-weight: 400;
+}
+
+.results {
+  width: 50%;
+  margin-left: 35%;
+}
+
+table {
+  margin: auto;
+  font-size: 18px;
+  width: 300px;
+}
+
+td:nth-child(1) {
+  text-align: left;
+  padding: 15px 0px;
+}
+
+td:nth-child(2) {
+  text-align: right;
+  padding: 15px 0px 15px 30px;
+}
+
+.header {
+  margin: 25px 30px 0px 165px;
+  padding: 20px 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 22px;
+  border-bottom: 2px solid black;
+}
+
+.footer-box {
+  text-transform: lowercase;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 30px;
+}
+
+.footer, .footer > a:link, .footer > a:visited, .footer > a:active {
+  font-weight: 300;
+  color: black;
+  font-size: 12px;
+  display: inline;
+}
+
+.footer > a:hover {
+  text-decoration: none;
+}

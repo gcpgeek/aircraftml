@@ -1,1 +1,2 @@
 # aircraftml
+This repository contains the source files to accompany the series of blog posts I wrote describing the Google Cloud AutoML Vision service and how to use it (and other Google Cloud services) to build a simple aircraft classifier. For additional information, see [Building an Aircraft Classifier with Google Cloud AutoML Vision] (https://www.lucidchart.com/blog/cloud/building-an-image-classification-system-part-1)

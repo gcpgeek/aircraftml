@@ -1,0 +1,36 @@
+<!DOCTYPE HTML SYSTEM>
+<html>
+<head>
+
+  <title>Aircraft Classification with Google Cloud AutoML</title>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+<div class="box">
+  <div class="box-l">
+    <div class="box-l-top"><img src="/plane.svg" alt="plane" width="100%" id="image-display"/></div>
+    <div class="box-l-bot"><img src="/cloud.svg" alt="cloud"/>
+      <div class="cta">
+        <input class="cta-button" type="file" id="fileButton"/>
+      </div>
+    </div>
+  </div>
+  <div class="box-r">
+    <div class="proj-name">Aircraft Classification with Google Cloud AutoML</div>
+    <div class="header" id="header">Notes</div>
+    <div class="results">
+      <table id="results">
+        <tr><td>Cloud AutoML is used to classify aircraft</td></tr>
+        <tr><td>Cloud Functions interacts with Cloud AutoML</td></tr>
+        <tr><td>Cloud Storage holds training images and models</td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="/aircraftml.js"></script>
+</body>
+</html>
